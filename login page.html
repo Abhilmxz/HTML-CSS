@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Pixel cloud</title>
+</head>
+<style>
+  body {
+		background: #f6f5f7;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		font-family: 'Montserrat', sans-serif;
+		height: 100vh;
+	}
+	
+	h2 {
+		text-align: center;
+	}
+	
+	
+	button {
+	
+		border: 1px solid #040404;
+		background-color: #000000;
+		color: #FFFFFF;
+		font-size: 8px;
+		font-weight: bold;
+		padding: 12px 45px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		width: 280px;
+	}
+	form {
+		background-color: #FFFFFF;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		padding: 0 50px;
+		height: 100%;
+		text-align: center;
+	}
+	
+	input {
+		background-color: #eee;
+		border: none;
+		padding: 12px 15px;
+		margin: 8px 0;
+		width: 100%;
+	}
+	
+	.data {
+		background-color: #fff;
+		box-shadow: 0 0 0px 1px black;
+		position: relative;
+		overflow: hidden;
+		width: 768px;
+		max-width: 100%;
+		min-height: 480px;
+	}
+	.form-data {
+		position: absolute;
+		top: 0;
+		height: 100%;
+	}
+	.sign-in-data {
+		left: 0;
+		width: 50%;
+		z-index: 2;
+	}
+	.overlay-data {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		width: 50%;
+		height: 100%;
+	}
+	.overlay {
+		background-size: cover;
+		background-position: 0 0;
+		color: #FFFFFF;
+		position: relative;
+		left: -100%;
+		height: 100%;
+		width: 200%;
+	}
+	.overlay-panel {
+		position: absolute;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		padding: 0 40px;
+		text-align: center;
+		height: 100%;
+		width: 50%;
+	}
+	.overlay-right {
+		right: 0;
+	}
+	</style>
+<body>
+    <div class="data" id="data">
+        <div class="form-data sign-in-data">
+            <form action="#">
+                <h2>Welocme Back</h2>
+               <div style="width:100%;display: flex;">
+                   <label style="display:inline-block" for="email">Email</label>
+
+               </div>
+                <input type="email" placeholder="" />
+                <div style="width:100%;display: flex;">
+
+                    <label style="display:inline-block" for="password">Password</label>
+                </div>
+                <input type="password" placeholder="" />
+                <div style="display: flex;flex-direction: row;">
+                    <div style="display:flex;flex-direction:row;">
+
+                        <input style="width:12px;margin-bottom:22px" type="checkbox"/>
+                        <span style="margin-right: 10px;margin-top:7px;margin-left: 5px;">Remember me</span>
+                    </div>
+                    
+                    <div>
+						<a href="#" style="margin-left: 10px;font-size:12px!important;font-weight: bold;text-decoration: none;">Forgot password</a>
+					</div>
+
+                </div>
+                <button>Submit</button>
+                <button style="margin-top:10px;">Submit in Web</button>
+            </form>
+        </div>
+        <div class="overlay-data">
+            <div class="overlay">
+                
+                <div class="overlay-panel overlay-right" style="background-image: url('https://images.pexels.com/photos/8905431/pexels-photo-8905431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
