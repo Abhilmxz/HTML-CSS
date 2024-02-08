@@ -1,0 +1,66 @@
+<html>
+    <head>
+      <title>IMAGE POSITION</title>
+<style>
+
+{
+box-sizing: border-box;
+}
+
+p {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #ff0000;
+}
+
+.container {
+  padding: 100px 30px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+
+.image-stack {
+  position: relative;
+  width: 100%;
+}
+
+.image-stackitem--bottom {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80%; 
+  z-index: -1;
+}
+
+.image-stackitem--top {
+  padding-top: 20px; 
+  padding-right: 20%; 
+  width: 80%;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+</style>
+    </head>
+
+    <body>
+
+<div class="container">
+    <p><strong>“EXPLORING THE NATUIRAL WORLD.🏞️🌎”</strong></p>
+  <div class="image-stack">
+    <div class="image-stackitem image-stackitem--bottom">
+      <img src="https://images.unsplash.com/photo-1706859450156-0214dca4260d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="space">
+    </div>
+    <div class="image-stackitem image-stackitem--top">
+      <img src="https://images.unsplash.com/photo-1707024258954-43c030ebab1d?q=80&w=1982&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+    </div>
+  </div>
+  <p><strong>“Photography for me is not looking, its feeling. If you cant feel what you’re looking at, then youre never going to get others to feel anything when they look at your pictures.”</strong><br> – Don McCullin</p>
+  </div>
+  </body>
+  </html>
